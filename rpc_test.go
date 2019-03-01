@@ -21,16 +21,16 @@ import (
 	"golang.org/x/time/rate"
 
 	atest "github.com/aristanetworks/goarista/test"
-	"github.com/cznic/b"
+	"github.com/Beeketing/b"
 	"github.com/golang/mock/gomock"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
-	"github.com/tsuna/gohbase/region"
-	"github.com/tsuna/gohbase/test"
-	"github.com/tsuna/gohbase/test/mock"
-	mockRegion "github.com/tsuna/gohbase/test/mock/region"
-	mockZk "github.com/tsuna/gohbase/test/mock/zk"
-	"github.com/tsuna/gohbase/zk"
+	"github.com/Beeketing/gohbase/hrpc"
+	"github.com/Beeketing/gohbase/pb"
+	"github.com/Beeketing/gohbase/region"
+	"github.com/Beeketing/gohbase/test"
+	"github.com/Beeketing/gohbase/test/mock"
+	mockRegion "github.com/Beeketing/gohbase/test/mock/region"
+	mockZk "github.com/Beeketing/gohbase/test/mock/zk"
+	"github.com/Beeketing/gohbase/zk"
 )
 
 func newMockClient(zkClient zk.Client) *client {

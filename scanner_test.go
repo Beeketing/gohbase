@@ -15,12 +15,12 @@ import (
 
 	atest "github.com/aristanetworks/goarista/test"
 	"github.com/golang/mock/gomock"
-	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
-	"github.com/tsuna/gohbase/region"
-	"github.com/tsuna/gohbase/test"
-	"github.com/tsuna/gohbase/test/mock"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/gohbase/hrpc"
+	"github.com/Beeketing/gohbase/pb"
+	"github.com/Beeketing/gohbase/region"
+	"github.com/Beeketing/gohbase/test"
+	"github.com/Beeketing/gohbase/test/mock"
 )
 
 func cp(i uint64) *uint64 {

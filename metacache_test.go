@@ -14,9 +14,9 @@ import (
 
 	"github.com/aristanetworks/goarista/test"
 	"github.com/golang/mock/gomock"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/region"
-	mockRegion "github.com/tsuna/gohbase/test/mock/region"
+	"github.com/Beeketing/gohbase/hrpc"
+	"github.com/Beeketing/gohbase/region"
+	mockRegion "github.com/Beeketing/gohbase/test/mock/region"
 )
 
 func TestMetaCache(t *testing.T) {

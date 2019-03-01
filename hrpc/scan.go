@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/gohbase/pb"
 )
 
 const (

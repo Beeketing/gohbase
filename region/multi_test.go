@@ -14,10 +14,10 @@ import (
 	"testing"
 
 	atest "github.com/aristanetworks/goarista/test"
-	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
-	"github.com/tsuna/gohbase/test"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/gohbase/hrpc"
+	"github.com/Beeketing/gohbase/pb"
+	"github.com/Beeketing/gohbase/test"
 )
 
 type RegionActions []*pb.RegionAction

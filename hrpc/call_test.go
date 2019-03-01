@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/aristanetworks/goarista/test"
-	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/gohbase/pb"
 )
 
 func TestCellFromCellBlock(t *testing.T) {

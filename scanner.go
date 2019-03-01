@@ -13,9 +13,9 @@ import (
 	"io"
 	"math"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/gohbase/hrpc"
+	"github.com/Beeketing/gohbase/pb"
 )
 
 const noScannerID = math.MaxUint64

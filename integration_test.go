@@ -24,12 +24,12 @@ import (
 	"math"
 
 	atest "github.com/aristanetworks/goarista/test"
-	"github.com/golang/protobuf/proto"
-	log "github.com/sirupsen/logrus"
-	"github.com/tsuna/gohbase"
-	"github.com/tsuna/gohbase/filter"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/Beeketing/protobuf/proto"
+	log "github.com/Beeketing/logrus"
+	"github.com/Beeketing/gohbase"
+	"github.com/Beeketing/gohbase/filter"
+	"github.com/Beeketing/gohbase/hrpc"
+	"github.com/Beeketing/gohbase/pb"
 )
 
 var host = flag.String("host", "localhost", "The location where HBase is running")
