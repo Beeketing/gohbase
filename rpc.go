@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Beeketing/protobuf/proto"
+	"github.com/golang/protobuf/proto"
 	log "github.com/Beeketing/logrus"
 	"github.com/Beeketing/gohbase/hrpc"
 	"github.com/Beeketing/gohbase/region"

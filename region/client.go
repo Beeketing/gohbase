@@ -17,7 +17,7 @@ import (
 
 	log "github.com/Beeketing/logrus"
 
-	"github.com/Beeketing/protobuf/proto"
+	"github.com/golang/protobuf/proto"
 	"github.com/Beeketing/gohbase/hrpc"
 	"github.com/Beeketing/gohbase/pb"
 )

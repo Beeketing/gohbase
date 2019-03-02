@@ -20,7 +20,7 @@ import (
 
 	atest "github.com/aristanetworks/goarista/test"
 	"github.com/golang/mock/gomock"
-	"github.com/Beeketing/protobuf/proto"
+	"github.com/golang/protobuf/proto"
 	"github.com/Beeketing/gohbase/hrpc"
 	"github.com/Beeketing/gohbase/pb"
 	"github.com/Beeketing/gohbase/test"

@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/Beeketing/b"
-	"github.com/Beeketing/protobuf/proto"
+	"github.com/golang/protobuf/proto"
 	log "github.com/Beeketing/logrus"
 	"github.com/Beeketing/gohbase/hrpc"
 	"github.com/Beeketing/gohbase/pb"

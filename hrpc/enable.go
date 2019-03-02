@@ -8,7 +8,7 @@ package hrpc
 import (
 	"context"
 
-	"github.com/Beeketing/protobuf/proto"
+	"github.com/golang/protobuf/proto"
 	"github.com/Beeketing/gohbase/pb"
 )
 

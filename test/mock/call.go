@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	proto "github.com/Beeketing/protobuf/proto"
+	proto "github.com/golang/protobuf/proto"
 	hrpc "github.com/Beeketing/gohbase/hrpc"
 )
 
